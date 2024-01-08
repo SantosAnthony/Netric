@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Netric</title>
+</head>
+<body>
+    <header>
+        <div class="faixa">
+            <div style="display:flex;  align-items: center; flex-direction: column;">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img class="logo" src="imagens\logo.png" alt="">
+                    <h1 class="nome">Netric</h1>
+                </div>
+                <h2 style=" width: 800px; text-align: center;  animation: auton2 linear forwards;
+                animation-timeline: scroll();
+                animation-range: 0vh 90vh; color: white; text-shadow: 0px 0px 10px black; ">Bem-vindo à Netric! onde cada conexão é o início de uma jornada extraordinária!</h2>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+ <div class="comeco">
+            <div class="titulo">
+                <h1 class="comecofrase">Permaneça sempre
+                    conectado<br>com <span class="Netric">Netric</span>
+                </h1>
+                <a class="link" href="#cadastro1">Cadastre-se</a>
+            </div>
+            <div>
+                <img class="imagem" src="imagens\img 1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="resumo" >
+            <div class="conteudo" id="resumo">
+                <h1 class="sobre">A <span class="Netric">Netric</span> é uma startup que busca mudar a maneira de conectar as pessoas.</h1>
+                <p class="texto1">Nosso aplicativo móvel é construído para criar e aumentar as conexões entre você, pessoas que conhece e pessoas que você quer conhecer. Com várias startups em nosso portfólio, a equipe da Netric está trabalhando para trazer a você tudo em um único aplicativo.</p>
+            </div>
+        </div>
+
+
+        <div class="assunto-dois ">
+            <div class="divtexto">
+                <h1 class="titulo2"><span class="temas">Conecte com amigos</span></h1>
+                <p class="paragrafo">Use a Netric para se conectar às pessoas que você conhece.</p>
+                <p class="paragrafo">A Netric pode conectar você a pessoas fora de seu círculo habitual.</p>
+            </div>
+            <div>
+                <img class="imagem" src="imagens\img 2.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="assunto">
+            <div class="divtexto inverso">
+                <h1 class="titulo2"><span class="temas">Mantenha contato</span></h1>
+                <p class="paragrafo">O sistema de mensagem da Netric substitui a mensagem de texto, a chamada e a mensagem de voz.</p>
+                <p class="paragrafo">
+                    Nossos fóruns irão mudar a maneira como você lida com grupos de interesses e debates virtuais.</p>
+            </div>
+            <div class="hidden">
+                <img class="imagem" src="imagens\img 3.jpg" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="assunto-dois ">
+            <div class="divtexto">
+                <h1 class="titulo2"><span class="temas">Construa sua base social</span></h1>
+                <p class="paragrafo">A Netric apresenta ideias e espaços que podem deixar você interessado.</p>
+                <p class="paragrafo">
+                Você pode usar esses espaços para conhecer novas pessoas e criar conexões.</p>
+            </div>
+            <div >
+                <img class="imagem" src="imagens\img 4.jpg" alt="">
+            </div>
+        </div>
+        <div id="cadastro1"></div>
+        <div class="subcadastro">
+            <div class="cadastro" >
+                <div class="tela">
+                    <h2>Entre em Contato</h2>
+                    <form  style="display: flex; flex-direction: column; gap: 40px;" method="post">
+                        <div class="field">
+                            
+                            <input  id="name" type="text" autocomplete="none" placeholder="Digite seu nome" >
+                            <label for="name"  class="label">Nome</label>
+                        </div>
+                        
+                        <div class="field">
+                            <input id="number"  type="email" placeholder="Digite seu e-mail" autocomplete="none" >
+                            <label for="number" class="label">E-mail</label>
+                        </div>
+                        
+                        
+                        
+                    </form>
+                    <button style=" align-self: center;"type="submit" id="botao" onclick="clicar()">
+                        Enviar
+                    </button>
+                    
+                    
+                </div>
+                <div class="imagensn">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="finalizcao">
+        <div class="logoenome">
+            <img class="logo" src="imagens\logo.png" alt="">
+            <h2 class="nome">Netric</h2>
+        </div>
+
+        <div class="icones">
+            <img src="imagens\linkedin.png" alt="" class="redes l">
+            <img src="imagens\instagram.png" alt="" class="redes i">
+            <img src="imagens\facebook.png" alt="" class="redes f">
+        </div>
+
+        <div class="finalizador">
+            <h1><span>Fale conosco</span></h1>
+            <p>(12) 3456-7890<br>
+                NetricCorp@Hotmail.com.br</p>
+        </div>
+    </footer>
+</body>
+<script src="javascript.js"></script>
+</html>
